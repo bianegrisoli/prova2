@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body>
+    <h1>Cadastro Fluxo de Caixa</h1>
+    <form action="cadastro_fluxo_de_caixa.php"
+    enctype="multipart/form-data" method="post">
+    <!--forma que os dados serao criptados-->
+        <div>
+            <label for="data">Data: </label>
+            <input type="text" name="data" id="data">
+        </div>
+        <div>
+            <label for="tipo">Tipo: </label>
+            <input type="text" name="tipo" id="tipo">
+        </div>
+        <div>
+            <label for="valor">Valor: </label>
+            <input type="text" name="valor" id="valor">
+        </div>
+        <div>
+            <label for="historico">Historico:  </label>
+            <input type="text" name="historico" id="historico">
+        </div>
+        <div>
+            <label for="cheque">Cheque:  </label>
+            <input type="text" name="cheque" id="cheque">
+        </div>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
